@@ -1,0 +1,29 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>SJ's Blog Podcast</title>
+    <link>https://coder4ever2.github.io/sjs-blog/</link>
+    <language>en-us</language>
+    <copyright>2026 Srinivas</copyright>
+    <itunes:author>Srinivas</itunes:author>
+    <description>Thoughts on technology, leadership, and the future. By Srinivas.</description>
+    <itunes:type>episodic</itunes:type>
+    
+    {% for post in site.posts %}
+      {% if post.audio %}
+      <item>
+        <title>{{ post.title | xml_escape }}</title>
+        <link>https://coder4ever2.github.io/sjs-blog{{ post.url }}</link>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <guid isPermaLink="true">https://coder4ever2.github.io/sjs-blog{{ post.url }}</guid>
+        <description>{{ post.excerpt | strip_html | xml_escape }}</description>
+        <enclosure url="https://coder4ever2.github.io/sjs-blog{{ post.audio }}" type="audio/mpeg"/>
+        <itunes:author>Srinivas</itunes:author>
+      </item>
+      {% endif %}
+    {% endfor %}
+  </channel>
+</rss>
