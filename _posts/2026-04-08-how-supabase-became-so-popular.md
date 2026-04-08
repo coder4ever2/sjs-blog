@@ -1,9 +1,15 @@
 ---
-layout: post
+layout: default
 title: "How Supabase Became So Popular"
 date: 2026-04-08 00:00:00 +0000
+audio: /assets/audio/2026-04-08-how-supabase-became-so-popular.mp3
 categories: tech backend databases
 ---
+
+<audio controls style="width: 100%; margin-bottom: 20px;">
+  <source src="{{ site.baseurl }}/assets/audio/2026-04-08-how-supabase-became-so-popular.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 Supabase has gone from “yet another backend startup” to one of the default choices developers consider when starting a new app. In just a few years, it’s become the de‑facto open‑source alternative to Firebase and a serious contender in the broader backend‑as‑a‑service (BaaS) space.
 
