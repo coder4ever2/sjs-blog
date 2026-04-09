@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ""When AI Gets Hands and Feet" — Talking with My Son About Physical AI"
+title: "\"When AI Gets Hands and Feet\" — Talking with My Son About Physical AI"
 date: 2026-04-09
 audio: /assets/audio/2026-04-09-when-ai-gets-hands-and-feet.mp3
 ---
