@@ -1,9 +1,14 @@
 ---
-layout: post
+layout: default
 title: "Tokenmaxxing: Hitting Usage Limits and Pushing Past 'You're Out of Extra Usage'"
-date: 2026-04-10 00:00:00 -0800
-categories: ai productivity
+date: 2026-04-10
+audio: /assets/audio/2026-04-10-tokenmaxxing-hitting-usage-limits.mp3
 ---
+
+<audio controls style="width: 100%; margin-bottom: 20px;">
+  <source src="{{ site.baseurl }}/assets/audio/2026-04-10-tokenmaxxing-hitting-usage-limits.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 If you’ve used Claude long enough, you’ve probably met the most annoying sentence in the interface:
 
