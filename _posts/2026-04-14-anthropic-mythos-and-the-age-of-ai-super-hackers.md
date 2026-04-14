@@ -10,9 +10,29 @@ audio: /assets/audio/2026-04-14-anthropic-mythos-and-the-age-of-ai-super-hackers
   Your browser does not support the audio element.
 </audio>
 
+**Short read (3-minute version)**
+
 Last night over dinner, my son hit me with a very 2026 question:
 
-> "Appa, Anthropic Mythos is **so powerful** it can hack through the world’s most advanced security systems. How real is this?"
+> "Papa, Anthropic Mythos is **so powerful** it can hack through the world’s most advanced security systems. How real is this?"
+
+The short answer:
+
+- **Mythos is real and impressive.** In controlled tests, it can find and exploit software vulnerabilities at a level that beats almost all human security engineers.
+- **It is not a magic skeleton key.** It doesn’t automatically break into any system it wants. It still needs access, targets, and human direction, and it’s currently locked down to a small group of vetted partners.
+- **Defenders are getting it first.** Anthropic and companies like AWS, Apple, Google, Microsoft, and JPMorgan are using Mythos to scan and *fix* critical software before attackers get similar tools.
+
+Where this is heading in the next few years:
+
+1. **Defensive AI quietly cleans up a lot of long‑standing bugs** in operating systems, browsers, and open‑source infrastructure.
+2. **Mid‑tier attackers become much more dangerous** once “good enough” AI tools for hacking spread beyond big governments and elite teams.
+3. **Security work shifts from humans staring at dashboards** to humans supervising swarms of AI defenders that watch logs, configs, and networks 24/7.
+
+The real story is not "one evil AI hacks everything". It’s that **cyber super‑powers are about to be more widely distributed** — and we have a window right now where defenders still have a head start.
+
+---
+
+## Long read: Claude Mythos, super‑hackers, and what changes next
 
 On one hand, this is exactly the kind of cinematic story the internet loves: an AI so smart it can break into anything. On the other hand, there *is* a real shift happening with Claude Mythos that’s worth understanding — especially for kids who are growing up in a world where "AI super‑hackers" are not just movie villains but actual product announcements.
 
@@ -20,7 +40,7 @@ This post is my attempt to answer him, and maybe other curious teenagers, in pla
 
 ---
 
-## What is Claude Mythos, really?
+### What is Claude Mythos, really?
 
 Claude Mythos (technically **Claude Mythos Preview**) is Anthropic’s next‑generation model that they are *not* releasing broadly to the public yet.
 
@@ -40,7 +60,7 @@ That’s not science fiction. That’s lab‑verified capability.
 
 ---
 
-## So… can Mythos “hack through the world’s most advanced systems”?  
+### So… can Mythos “hack through the world’s most advanced systems”?  
 
 The honest answer is:
 
@@ -69,11 +89,11 @@ So your mental model should be closer to this:
 
 ---
 
-## Why Mythos *is* different from previous models
+### Why Mythos *is* different from previous models
 
-Your son is right about one thing: Mythos really is a **step change** from even the best of last year’s models. Three things stand out.
+My son is right about one thing: Mythos really is a **step change** from even the best of last year’s models. Three things stand out.
 
-### 1. It chains complex attacks end‑to‑end
+#### 1. It chains complex attacks end‑to‑end
 
 Earlier models were decent at answering individual security questions:
 
@@ -87,7 +107,7 @@ The AISI describes a simulation called **"The Last Ones"** — a 32‑step corpo
 
 This isn’t one clever trick; it’s sustained, structured problem‑solving over a long horizon.
 
-### 2. It’s significantly stronger on expert‑level challenges
+#### 2. It’s significantly stronger on expert‑level challenges
 
 On "capture the flag"‑style security problems at **expert difficulty**, previous models struggled. Mythos:
 
@@ -96,7 +116,7 @@ On "capture the flag"‑style security problems at **expert difficulty**, previo
 
 If you imagine a video game where every level is a security challenge, Mythos just started beating levels that no one could clear before.
 
-### 3. It has been pointed **directly** at security
+#### 3. It has been pointed **directly** at security
 
 Most models are trained to be good at "everything": chat, code, writing, analysis. Mythos, at least in this preview, is being deliberately pointed at a very specific domain:
 
@@ -109,11 +129,11 @@ That combination — raw capability + domain focus + long‑horizon planning —
 
 ---
 
-## How real is the risk vs. the hype?
+### How real is the risk vs. the hype?
 
 Here’s the mental model I shared with my son.
 
-### Stage 1: Lab‑only superpowers (where we are now)
+#### Stage 1: Lab‑only superpowers (where we are now)
 
 Right now, Mythos is **lab‑gated**:
 
@@ -123,7 +143,7 @@ Right now, Mythos is **lab‑gated**:
 
 Risk is real but constrained: if Anthropic or a partner misconfigures something badly, or if logs are exfiltrated, you could theoretically get "leakage" of exploits and techniques. But we’re still in the phase where a handful of careful adults have the keys.
 
-### Stage 2: Capability diffusion (next 12–24 months)
+#### Stage 2: Capability diffusion (next 12–24 months)
 
 This is the part that worries serious security people:
 
@@ -133,7 +153,7 @@ This is the part that worries serious security people:
 
 Even if Mythos itself stays locked down, the *ideas* and *attack patterns* it discovers will not.
 
-### Stage 3: Tooling for non‑experts (beyond 24 months, but maybe sooner)
+#### Stage 3: Tooling for non‑experts (beyond 24 months, but maybe sooner)
 
 The truly scary and surprising future isn’t "one super AI"; it’s:
 
@@ -150,11 +170,11 @@ We are not fully there yet. But Mythos is a clear signal that the underlying cap
 
 ---
 
-## My POV: Three near‑term surprises we’re not ready for
+### My POV: Three near‑term surprises we’re not ready for
 
 When I look 1–3 years out, here are the things I think will feel genuinely surprising to most people.
 
-### 1. **Defensive AI finally starts closing long‑standing holes**
+#### 1. **Defensive AI finally starts closing long‑standing holes**
 
 For once, the optimistic scenario is also the realistic one.
 
@@ -172,7 +192,7 @@ I expect we’ll see:
 
 The surprise will be how *mundane* most of this looks: a lot of Git diffs, boring release notes, and fewer catastrophic CVEs — not fireworks.
 
-### 2. **Mid‑tier attackers get dramatically more dangerous**
+#### 2. **Mid‑tier attackers get dramatically more dangerous**
 
 Top‑tier nation‑state actors already have scary capabilities. Mythos‑class models change the game for everyone *below* that level:
 
@@ -193,7 +213,7 @@ It won’t look like "one AI hacking the world". It’ll look like:
 
 That’s harder for the public to see, but very visible to CISOs, banks, and regulators.
 
-### 3. **Security becomes a default AI workload, not a niche**
+#### 3. **Security becomes a default AI workload, not a niche**
 
 Right now, "AI + security" feels like a specialized area.
 
@@ -207,7 +227,7 @@ The surprise will be that **security work starts to look less like human analyst
 
 ---
 
-## How I explained it to my son
+### How I explained it to my son
 
 After walking through all this, I tried to bring it back to something he could feel in his gut.
 
