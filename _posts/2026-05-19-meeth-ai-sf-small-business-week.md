@@ -2,7 +2,13 @@
 layout: default
 title: "Operators-First AI: Inside Meeth AI’s Soft Launch at SF Small Business Week"
 date: 2026-05-19
+audio: /assets/audio/meeth-ai-sf-small-business-week.mp3
 ---
+
+<audio controls style="width: 100%; margin-bottom: 20px;">
+  <source src="{{ site.baseurl }}/assets/audio/meeth-ai-sf-small-business-week.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 **Short read**
 
