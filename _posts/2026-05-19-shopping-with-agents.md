@@ -13,7 +13,7 @@ audio: /assets/audio/shopping-agents-2026-05-19.mp3
 **Short read**
 
 - Amazon just rebranded Rufus as **Alexa for Shopping**, promising web-wide deal hunting, price histories, and cross-device memory right inside the Amazon search box (Source: PCMag, The Verge, May 2026).
-- In practice, Alexa still refused to fetch non-Amazon offers when I asked for the best price on Hush Puppies 8.5W loafers—it literally generated a section called “Available from the Web” and then answered, “I can’t help with this type of request.”
+- In practice, Alexa still refused to fetch non-Amazon offers when we asked for the best price on Hush Puppies 8.5W loafers—it literally generated a section called “Available from the Web” and then answered, “I can’t help with this type of request.”
 - Gemini’s **Compare and Contrast** mode took the *same* prompt and immediately surfaced DSW, Lyst, and ModeSens with live prices and style variants, proving that agentic shopping only works when the model is willing to leave its own walled garden.
 - Voice is the glue: the winner will be whichever assistant pairs trustworthy multi-retailer data with hands-free commands like “set a price alert” or “order the blue pair if it’s under $40.”
 
@@ -33,7 +33,7 @@ Rausch from Amazon framed it as “more deeply integrated, more capable, and ava
 
 ![Screenshot showing Alexa for Shopping refusing to process multi-retailer request while labeling the section "Available from the Web"]({{ site.baseurl }}/assets/images/alexa-for-shopping.jpg)
 
-My test prompt was simple: *“Search on the internet and find me the best deal, not just within Amazon.com marketplaces. I want the best quality and value for Hush Puppies 8.5W loafers that I usually shop.”*
+Our test prompt was simple: *“Search on the internet and find me the best deal, not just within Amazon.com marketplaces. I want the best quality and value for Hush Puppies 8.5W loafers that I usually shop.”*
 
 Alexa’s response:
 
